@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compartilhe conosco</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+        
+        <h1><a href="index.html"><img src="imagens/logo.png" alt="Logo do Site" id="logo_cab"></a></h1>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="equipamentos.html">Equipamentos</a></li>
+                <li><a href="forms.html">Compartilhe conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <section id="formulario">
+            <h2>Nos de seu feedback!</h2>
+            <img src="imagens/homem_pescando.png" alt="homem sentado pescando" class="homem-pescando">
+            <form>
+                <label for="nomeesobrenome"> Digite o seu nome</label>
+                <input type="text" id="nomeesobrenome" class="input-formulario" required
+                    placeholder=" Nome e sobrenome">
+                    <label>Você já pescou antes?</label><br>
+                <div id="japescou">
+                    <label class="resposta" for="sim">Sim</label>
+                    <input class="resposta" type="radio" name="sim"><br>
+                    <label class="resposta" for="nao">Não</label>
+                    <input class="resposta" type="radio" name="nao"><br>
+                </div>
+
+                <label for="data-pesca">Se sim, quando foi a última vez que você pescou?</label>
+                <input type="date" id="data-pesca" class="input-formulario" placeholder="Data da última pesca">
+
+                <label for="descreva">Descreva como foi</label>
+                <textarea id="descreva-experiencia" class="input-formulario" rows="30"></textarea>
+
+                <label for="feedback">Gostou do nosso site?</label>
+                <select name="select" class="seletor">
+                    <option value="valor1" selected>Sim, ótimo site!</option>
+                    <option value="valor2">Achei uma porcaria!</option>
+                </select>
+                <input type="submit" id="submit" class="botao-mandar" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+            <img src="imagens/diabo-do-mar.png" alt="Peixe Fundo do mar" id="logo_rodape">
+            <h3>Criado por Marcos Paulo e Rafael Melges</h3>
+            <p id="copyright">&copy; Pesca - 2022</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+	background: #03989E;
+}
+
+#logo_cab {
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    background-color: #03989E;
+    padding: 4px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+nav a:active {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+main {
+	padding: 100px 0;
+	background: linear-gradient( #03989E, #00FFFF, #00BFFF, #1E90FF, #0000FF, #00008B, #000000);
+}
+
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	border: white solid;
+}
+
+
+
+footer {
+	background-color: black;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+
+}
+
+#logo_rodape {
+	padding: 70px 0;
+	width: 400px;
+	left: 40%;
+	position: relative;
+}
+
+
+h3 {
+	display: inline;
+	float: right;
+	padding: 10px;
+	text-shadow: 0 0 0.2em #8F7
+}
+
+#copyright {
+	font-weight: bold;
+	text-align: center;
+}
+
+.conteudo {
+	margin: 30px 5%;
+	text-align: center;
+}
+
+#pescadores {
+	margin: 0 auto;
+	display: block;
+	width: 400px;
+	border: white solid;
+}
+
+#video, #historia {
+	margin-top: 80px ;
+}
+
+#historia {
+	color: white;
+	margin: 80px 6% 0 6%;
+}
+
+#restaurante {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0 0 0.2em #8F7
+}
+
+.textohist {
+	padding: 10px 23px;
+	text-align: center;
+}
+
+form {
+	padding-top: 20px;
+}
+
+.homem-pescando {
+    float: right;
+    margin: 30px 100px;
+    width: 20%;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.homem-pescando:hover {
+    transition: 1s;
+    width: 21%;
+}
+
+
+#formulario {
+    width: 940px;
+    padding: 0 100px 100px 100px;
+    margin: 0 auto;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #FFF;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    3px -1px 0px #000,                  
+    3px 0px 0px #000;
+
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+input {
+	display: block;
+}
+
+
+.input-formulario{
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+#japescou{
+	margin: 10px 0;
+}
+
+.resposta {
+	display: inline-block;
+}
+
+.seletor{
+    display: block;
+    margin: 10px;
+}
+
+.botao-mandar{
+    display: block;
+    background-color: #daa520;
+    border-radius: 7px;
+    width: 25%;
+    height: 30px;
+    margin: 50px auto;
+}
+
+.botao-mandar:hover{
+    transition: 1s;
+    width: 40%; 
+}
+
+#carouselExampleControls {
+	width: 200px;
+	margin: 30px;
+	display: inline-block;
+}
+
+.descricaoequip {
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+    width: 600px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.equipamento {
+	text-align: center;
+	padding: 30px 0;
+	color: white;
+}
+
+.item {
+	width: 200px;
+	margin: 30px 30px 0 30px;
+	display: inline-block;
+}
